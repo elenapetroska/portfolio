@@ -1,0 +1,89 @@
+body{
+    padding-top: 100px;
+}
+
+.navigation{
+    background-color: peru;
+    height: 100px;
+}
+
+.mainLeft{
+    background-color: red;
+    width: 10%;
+    height: 1000px;
+    float: right;
+}
+
+
+.mainCenter{
+    background-color: brown;
+    width: 80%;
+    height: 1000px;
+    float: right;
+}
+
+
+.mainRight{
+    background-color: green;
+    width: 10%;
+    height: 1000px;
+    float: right;
+}
+
+.navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navigation .leftLinks{
+    width: 33.33%;
+    float: left;
+}
+
+.navigation .centerLinks{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.navigation .rightLinks{
+    width: 33.33%;
+    float: right;
+    text-align: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.share{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    position: fixed;
+    right: 80px;
+    bottom: 100px
+}
+
+.tigar{
+    background-image: url(https://live.staticflickr.com/800/39145707040_1baa33f737_b.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.tigar .description{
+    background-color: #ffffffad;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}

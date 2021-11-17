@@ -1,0 +1,112 @@
+body {
+    background-color: #161b22;
+    color: seashell;
+}
+
+a{
+    color: #58a6ff;
+}
+
+ul{
+    margin: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.main{
+    background-color: #0d1117;
+    width:100%;
+    max-width: 1000px;
+    min-width: 100px;
+    margin: 0px auto;
+}
+
+.contentLeft{
+float: left;
+width: 65%;
+}
+
+.contentRight{
+float: right;
+width: 35%;
+}
+
+.header{
+    padding: 10px;
+}
+.headerTop,
+.headerMiddle {
+    margin-bottom: 15px;
+}
+
+.linksLeft{
+    float: left;
+}
+
+.linksRight{
+    float: right;
+}
+
+.linksRight ul li{
+    display: inline-block;
+    margin-left: 10px;
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+
+.linksRight ul li:last-of-type{
+    border-right: none;
+}
+
+.headerMiddle .logoLeft,
+.headerMiddle .logoCenter,
+.headerMiddle .logoRight{
+    float: left;
+    width: 33.33%
+}
+
+.headerMiddle .logoLeft img{
+    width: 100%;
+    max-width: 200px;
+}
+
+.headerMiddle .logoCenter h1{
+    line-height: 26px;
+}
+
+.headerMiddle .logoCenter{
+    text-align: center;
+}
+
+.headerMiddle .logoRight{
+    text-align: right;
+}
+
+.headerMiddle .logoRight input{
+    background-color: #161b22;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+.searchField{
+    position: relative;
+}
+
+.searchField i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.contentLeft .image{
+    float: left;
+    width: calc(20% - 10px);
+    margin-right: 10px;
+}
+
+.contentLeft .newsInfo{
+    float: left;
+    width: 80%;
+}

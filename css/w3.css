@@ -1,0 +1,33 @@
+body {
+padding: 100px;
+}
+
+.navigation {
+    background-color: red;
+    height: 100px;
+    opacity: 0.5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+.mainLeft {
+    background-color: green;
+    width: 10%;
+    height: 1000px
+    ;
+    float: right;
+}
+
+.mainCenter {
+    background-color: blue;
+    height: 1000px;
+    float: left;
+}
+
+.mainRight {
+    background-color: blueviolet;
+    height: 1000px;
+}
